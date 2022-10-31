@@ -112,4 +112,54 @@ a {
   background: #C4DEFD;
 }
 
+#hero .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+#hero .hero--the h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #4F9CF9;
+}
+#hero .hero--the p {
+  width: 656px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #4F9CF9;
+  padding: 20px 0;
+}
+#hero .hero--the button {
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  width: 219px;
+  height: 63px;
+  border: none;
+  background: #4F9CF9;
+  border-radius: 8px;
+}
+#hero .hero--the button:hover {
+  background: transparent;
+  color: #4F9CF9;
+  border: 2px solid #4F9CF9;
+}
+#hero .hero--bloc {
+  width: 500px;
+  height: 350px;
+  background: #C4DEFD;
+}
+
 /*# sourceMappingURL=style.css.map */
