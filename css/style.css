@@ -62,6 +62,57 @@ a {
   border: 2px solid #4F9CF9;
 }
 
+
+#work .work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#work .work--title h1 {
+  width: 672px;
+  height: 174px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+#work .work--title p {
+  width: 672px;
+  height: 90px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  padding: 18px 0;
+}
+#work .work--title button {
+  width: 200px;
+  height: 40px;
+  background: #4F9CF9;
+  border-radius: 8px;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+#work .work--title button:hover {
+  background: transparent;
+  color: #4F9CF9;
+  border: 2px solid #4F9CF9;
+}
+#work .work--block {
+  width: 500px;
+  height: 350px;
+  background: #C4DEFD;
+}
+
 #hero .hero {
   display: flex;
   justify-content: space-between;
@@ -112,4 +163,3 @@ a {
   background: #C4DEFD;
 }
 
-/*# sourceMappingURL=style.css.map */
