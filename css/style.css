@@ -62,6 +62,7 @@ a {
   border: 2px solid #4F9CF9;
 }
 
+
 #work .work {
   display: flex;
   align-items: center;
@@ -112,6 +113,7 @@ a {
   background: #C4DEFD;
 }
 
+
 #hero .hero {
   display: flex;
   justify-content: space-between;
@@ -161,6 +163,7 @@ a {
   height: 350px;
   background: #C4DEFD;
 }
+
 
 #title .title {
   display: flex;
@@ -304,4 +307,3 @@ a {
   color: #37A3FF;
 }
 
-/*# sourceMappingURL=style.css.map */
