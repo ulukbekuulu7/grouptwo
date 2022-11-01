@@ -62,7 +62,6 @@ a {
   border: 2px solid #4F9CF9;
 }
 
-
 #work .work {
   display: flex;
   align-items: center;
@@ -163,3 +162,146 @@ a {
   background: #C4DEFD;
 }
 
+#title .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#title .title--block {
+  width: 500px;
+  height: 500px;
+  left: 35px;
+  top: 0;
+  border: 2px dashed #A7CEFC;
+  border-radius: 50%;
+}
+#title .title--block__one {
+  position: absolute;
+  background: #FFDC4D;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 155px;
+  top: 1000px;
+}
+#title .title--block__two {
+  position: absolute;
+  background: #FF5758;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 40px;
+  top: 1215px;
+}
+#title .title--block__three {
+  position: absolute;
+  background: #37A3FF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 140px;
+  top: 1405px;
+}
+#title .title--block__four {
+  position: absolute;
+  background: #37A3FF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 515px;
+  top: 1100px;
+}
+#title .title--block__fif {
+  position: absolute;
+  background: #00CA75;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 475px;
+  top: 1380px;
+}
+#title .title--block__line {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 190px;
+  top: 1110px;
+  border: 2px dashed #A7CEFC;
+  border-radius: 50%;
+}
+#title .title--block__line--one {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 240px;
+  top: 110px;
+  border-radius: 50%;
+  background: #37A3FF;
+}
+#title .title--block__line--two {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -28px;
+  top: 107px;
+  border-radius: 50%;
+  background: #37A3FF;
+}
+#title .title--block__line--three {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 110px;
+  top: -30px;
+  background: #00CA75;
+  border-radius: 50%;
+}
+#title .title--block__line--four {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 100px;
+  top: 230px;
+  background: #FFBF60;
+  border-radius: 50%;
+}
+#title .title--contact div h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+#title .title--contact div p {
+  padding: 30px 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #212529;
+  width: 670px;
+  height: 60px;
+}
+#title .title--contact div button {
+  width: 186px;
+  height: 50px;
+  background: #4F9CF9;
+  border-radius: 6px;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+#title .title--contact div button:hover {
+  background: transparent;
+  border: 2px solid #37A3FF;
+  color: #37A3FF;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -134,7 +134,6 @@
       font-size: 64px;
       line-height: 77px;
       letter-spacing: -0.02em;
-
       color: #4F9CF9;
 
     }
@@ -179,5 +178,158 @@
 
 }
 
+
+#title{
+
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--block{
+      width: 500px;
+      height: 500px;
+      left: 35px;
+      top: 0;
+      border: 2px dashed #A7CEFC;
+      border-radius: 50%;
+     &__one{
+       position: absolute;
+       background: #FFDC4D;
+       width: 60px;
+       height: 60px;
+       border-radius: 50%;
+       left: 155px;
+       top:1000px;
+     }
+      &__two{
+        position: absolute;
+        background: #FF5758;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        left: 40px;
+        top:1215px;
+     }
+      &__three{
+        position: absolute;
+        background:  #37A3FF;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        left: 140px;
+        top:1405px;
+     }
+      &__four{
+       position: absolute;
+       background: #37A3FF;
+       width: 60px;
+       height: 60px;
+       border-radius: 50%;
+       left: 515px;
+       top:1100px;
+     }
+      &__fif{
+        position: absolute;
+        background: #00CA75;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        left: 475px;
+        top:1380px;
+     }
+
+      &__line{
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        left: 190px;
+        top: 1110px;
+        border: 2px dashed #A7CEFC;
+        border-radius: 50%;
+        &--one{
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          left: 240px;
+          top: 110px;
+          border-radius: 50%;
+          background:#37A3FF;
+        }
+        &--two{
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          left: -28px;
+          top: 107px;
+          border-radius: 50%;
+          background:#37A3FF;
+        }
+        &--three{
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          left: 110px;
+          top:-30px;
+          background: #00CA75;
+          border-radius:50%
+        }
+        &--four{
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          left: 100px;
+          top:230px;
+          background: #FFBF60;
+          border-radius:50%
+        }
+      }
+    }
+    &--contact{
+      div{
+        h1{
+          font-family: 'Inter',sans-serif;
+          font-weight: 700;
+          font-size: 72px;
+          letter-spacing: -0.02em;
+          color: #212529
+        }
+        p{
+          padding: 30px 0;
+          font-family: 'Inter',sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          letter-spacing: -0.02em;
+          color: #212529;
+          width: 670px;
+          height: 60px;
+
+        }
+        button{
+          width: 186px;
+          height: 50px;
+          background: #4F9CF9;
+          border-radius: 6px;
+          border:none;
+          transition: .4s;
+          cursor: pointer;
+          font-family: 'Inter',sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+          &:hover{
+            background: transparent;
+            border:2px solid #37A3FF;
+            color:#37A3FF;
+          }
+        }
+      }
+    }
+  }
+
 }
+
+
 
