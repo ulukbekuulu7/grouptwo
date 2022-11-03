@@ -62,7 +62,6 @@ a {
   border: 2px solid #4F9CF9;
 }
 
-
 #work .work {
   display: flex;
   align-items: center;
@@ -163,6 +162,7 @@ a {
   height: 350px;
   background: #C4DEFD;
 }
+
 
 
 #title .title {
